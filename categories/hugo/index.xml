@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on DEV&#39;s Diary</title>
+    <link>/categories/hugo/</link>
+    <description>Recent content in hugo on DEV&#39;s Diary</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Wed, 28 Jul 2021 16:44:13 +0900</lastBuildDate><atom:link href="/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Blog 만들기</title>
+      <link>/articles/hugo-blog/</link>
+      <pubDate>Wed, 28 Jul 2021 16:44:13 +0900</pubDate>
+      
+      <guid>/articles/hugo-blog/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
