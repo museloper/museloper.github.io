@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="theme-color" content="dark">
-    <title>휴고 블로그 만들기 | DEV&#39;s Diary</title>
+    <title>휴고 블로그 시작하기 | DEV&#39;s Diary</title>
 
     
     
     
     <meta property="og:site_name" content="겨자씨" />
-    <meta property="og:title" content="휴고 블로그 만들기 | DEV&#39;s Diary"/>
-    <meta itemprop="name" content="휴고 블로그 만들기 | DEV&#39;s Diary" />
-    <meta name="twitter:title" content="휴고 블로그 만들기 | DEV&#39;s Diary" />
-    <meta name="application-name" content="휴고 블로그 만들기 | DEV&#39;s Diary" />
+    <meta property="og:title" content="휴고 블로그 시작하기 | DEV&#39;s Diary"/>
+    <meta itemprop="name" content="휴고 블로그 시작하기 | DEV&#39;s Diary" />
+    <meta name="twitter:title" content="휴고 블로그 시작하기 | DEV&#39;s Diary" />
+    <meta name="application-name" content="휴고 블로그 시작하기 | DEV&#39;s Diary" />
 
 
     <meta name="description" content="좋은 땅 만들기" />
@@ -76,7 +76,7 @@
         <header class="article-header">
             <div class="thumb">
                 <div>
-                    <h1>휴고 블로그 만들기</h1>
+                    <h1>휴고 블로그 시작하기</h1>
                     <div class="post-meta">
                         <div>
                             
@@ -84,7 +84,7 @@
                               
                             
                             By museloper | <time>July 28, 2021</time>
-                            | 1 minutes
+                            | 3 minutes
                         </div>
                         <div class="tags">
                             
@@ -198,12 +198,241 @@
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-cmd" data-lang="cmd">C<span class="p">:</span><span class="nl">\Users\User</span><span class="c1">&gt;hugo version</span>
+<pre class="chroma"><code class="language-cmd" data-lang="cmd"><span class="p">&gt;</span> hugo version
 hugo v0.82.0-9D960784+extended windows/amd64 BuildDate=2021-03-21T17:28:04Z VendorInfo=gohugoio
 </code></pre></td></tr></table>
 </div>
 </div><p><br /></p>
+<h2 id="2-사이트-생성">
+    <a href="#2-%ec%82%ac%ec%9d%b4%ed%8a%b8-%ec%83%9d%ec%84%b1" class="anchor">
+        <svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+            </path>
+        </svg>
+    </a>
+    2. 사이트 생성
+</h2>
+<p>아래와 같이 <code>hugo new site ***</code> 명령을 통해 사이트를 생성합니다.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cmd" data-lang="cmd"><span class="p">&gt;</span> cd C:\Hugo\Sites
+<span class="c1">rem 생성해둔 Hugo/Sites 디렉토리로 이동합니다.</span>
+
+<span class="p">&gt;</span> hugo new site sample
+Congratulations! Your new Hugo site is created in c:\Hugo\Sites\sample.
+
+Just a few more steps and you&#39;re ready to go:
+
+1. Download a theme into the same-named folder.
+   Choose a theme from https://themes.gohugo.io/ or
+   create your own with the <span class="s2">&#34;hugo new theme &lt;THEMENAME&gt;&#34;</span> command.
+2. Perhaps you want to add some content. You can add single files
+   with <span class="s2">&#34;hugo new &lt;SECTIONNAME&gt;\&lt;FILENAME&gt;.&lt;FORMAT&gt;&#34;</span>.
+3. Start the built-in live server via <span class="s2">&#34;hugo server&#34;</span>.
+
+Visit https://gohugo.io/ for quickstart guide and full documentation.
+</code></pre></td></tr></table>
+</div>
+</div><p><br /></p>
+<h2 id="3-테마-추가">
+    <a href="#3-%ed%85%8c%eb%a7%88-%ec%b6%94%ea%b0%80" class="anchor">
+        <svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+            </path>
+        </svg>
+    </a>
+    3. 테마 추가
+</h2>
+<p>👉 <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a> 👈 에서 다양한 테마를 찾을 수 있습니다.</p>
+<p>원하는 테마를 찾았다면 생성한 사이트에 테마를 추가해야 합니다.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cmd" data-lang="cmd"><span class="p">&gt;</span> cd sample
+<span class="c1">rem 생성한 사이트 디렉토리로 이동합니다.</span>
+
+<span class="p">&gt;</span> git init
+<span class="p">&gt;</span> git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+<span class="c1">rem 각 테마는 원작자의 깃헙 저장소에 공개되어 있습니다. </span>
+<span class="c1">rem 깃헙 저장소에서 테마 디렉토리로 서브모듈을 추가합니다. </span>
+</code></pre></td></tr></table>
+</div>
+</div><p><br /></p>
+<h2 id="4-테마-연결">
+    <a href="#4-%ed%85%8c%eb%a7%88-%ec%97%b0%ea%b2%b0" class="anchor">
+        <svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+            </path>
+        </svg>
+    </a>
+    4. 테마 연결
+</h2>
+<p>생성된 사이트가 어떤 테마를 사용할 것인지 명시해줘야 합니다.</p>
+<p>아래와 같이 명령어로 테마를 연결합니다.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cmd" data-lang="cmd"><span class="p">&gt;</span> echo theme = <span class="s2">&#34;ananke&#34;</span> <span class="p">&gt;&gt;</span> config.toml
+<span class="c1">rem config.toml 파일에 theme = &#34;ananke&#34; 을 추가하는 명령어</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>혹은 <code>config.toml</code> 파일을 직접 열어 <code>theme = &quot;ananke&quot;</code>를 추가하셔도 됩니다.</p>
+<p><br /></p>
+<h2 id="5-서버-실행">
+    <a href="#5-%ec%84%9c%eb%b2%84-%ec%8b%a4%ed%96%89" class="anchor">
+        <svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+            </path>
+        </svg>
+    </a>
+    5. 서버 실행
+</h2>
+<p>아래와 같이 <code>hugo server -D</code> 명령어로 서버를 실행시킬 수 있습니다.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cmd" data-lang="cmd"><span class="p">&gt;</span> hugo server -D
+<span class="k">Start</span> building sites …
+
+                   <span class="p">|</span> EN
+-------------------+-----
+  Pages            <span class="p">|</span>  7
+  Paginator pages  <span class="p">|</span>  0
+  Non-page files   <span class="p">|</span>  0
+  Static files     <span class="p">|</span>  1
+  Processed images <span class="p">|</span>  0
+  Aliases          <span class="p">|</span>  0
+  Sitemaps         <span class="p">|</span>  1
+  Cleaned          <span class="p">|</span>  0
+
+Built in 120 ms
+Watching for changes in c:\Hugo\Sites\sample\{archetypes,content,data,layouts,static,themes}
+Watching for config changes in c:\Hugo\Sites\sample\config.toml, c:\Hugo\Sites\sample\themes\ananke\config.yaml
+Environment: <span class="s2">&#34;development&#34;</span>
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+</code></pre></td></tr></table>
+</div>
+</div><p>서버가 켜지면 <code>http://localhost:1313/</code> 주소를 통해 빌드된 사이트에 접근할 수 있습니다!</p>
+<p>하지만 아직 아무런 컨텐츠가 없기 때문에 사이트에 접근해도 휑하게 느껴지네요 ^^;; 휑한 사이트를 채워줄 컨텐츠를 생성해 봅시다.</p>
+<p>서버를 종료하려면 <code>Ctrl + C</code> 명령을 사용하시면 됩니다. 한 번에 종료 안되면 여러번 누르세요!! ㅎㅎ</p>
+<p><br /></p>
+<h2 id="6-컨텐츠-생성">
+    <a href="#6-%ec%bb%a8%ed%85%90%ec%b8%a0-%ec%83%9d%ec%84%b1" class="anchor">
+        <svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+            </path>
+        </svg>
+    </a>
+    6. 컨텐츠 생성
+</h2>
+<p>아래와 같이 <code>hugo new ***.md</code> 명령어를 통해 컨텐츠를 생성할 수 있습니다.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cmd" data-lang="cmd"><span class="p">&gt;</span> hugo new posts/sample.md
+c<span class="p">:</span><span class="nl">\Hugo\Sites\sample\content\posts\sample.md</span><span class="c1"> created</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>생성된 컨텐츠의 경로는 <code>content</code> 디렉토리의 하위로 들어가게 됩니다.</p>
+<blockquote>
+<p>휴고 블로그의 컨텐츠들은 <code>.md</code> 파일 즉 마크다운 문법으로 작성되는 파일 입니다. 마크다운 문법이 생소하시다면 <a href="../syntax-markdown">마크다운 문법</a> 포스팅을 참조하세요 :)</p>
+</blockquote>
+<p><br /></p>
+<h2 id="7-테마-커스터마이징">
+    <a href="#7-%ed%85%8c%eb%a7%88-%ec%bb%a4%ec%8a%a4%ed%84%b0%eb%a7%88%ec%9d%b4%ec%a7%95" class="anchor">
+        <svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+            </path>
+        </svg>
+    </a>
+    7. 테마 커스터마이징
+</h2>
+<p><code>config.toml</code> 파일을 열고 내용을 수정합니다.</p>
+<p>참고로 테마마다 <code>.toml</code> 파일을 사용할 수도 있고 <code>.yaml</code> 파일을 사용할 수도 있습니다. 저마다의 문법이 조금씩 다르니 유의하셔야 합니다.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-toml" data-lang="toml"><span class="nx">baseURL</span> <span class="p">=</span> <span class="s2">&#34;https://example.org/&#34;</span>
+<span class="nx">languageCode</span> <span class="p">=</span> <span class="s2">&#34;en-us&#34;</span>
+<span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;My New Hugo Site&#34;</span>
+<span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;ananke&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p><code>themes/ananke/exampleSite</code> 디렉토리를 참조하세요!!</p>
+</blockquote>
+<p><br /></p>
 <pre><code># 2021-08-02 | v1.0 | 휴고 설치
+# 2021-08-04 | v1.1 | 사이트 생성, 테마 추가, 테마 연결, 서버 실행, 컨텐츠 생성, 테마 커스터마이징
 </code></pre>
     </div>
 </div>
